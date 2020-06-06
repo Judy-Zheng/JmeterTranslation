@@ -6,16 +6,16 @@ Apache JMeter既可以用于测试静态资源的性能，也可用于测试动�
 
 Apache JMeter的特性包括：
 1、具有加载和性能测试许多不同的应用/服务/协议类型的能力：
-    Web - HTTP, HTTPS (Java, NodeJS, PHP, ASP.NET, …)
-    SOAP / REST Webservices
+    网络 - HTTP, HTTPS (Java, NodeJS, PHP, ASP.NET, …)
+    SOAP / REST Web服务
     FTP
-    Database via JDBC
+    通过JDBC的数据库
     LDAP
-    Message-oriented middleware (MOM) via JMS
-    Mail - SMTP(S), POP3(S) and IMAP(S)
-    Native commands or shell scripts
-    TCP
-    Java Objects
+    通过JMS的面向消息的中间件（MOM）
+    邮件-SMTP（S），POP3（S）和IMAP（S）
+    本机命令或Shell脚本
+    TCP协议
+    Java对象
 2、允许从浏览器或者本地应用快速记录测试计划的全功能的测试集成开发环境。
 3、可以用命令行模式从Java兼容的操作系统(如Linux, Windows, Mac OSX等)加载测试计划。
 4、完整且随时可以呈现的动态HTML报告。
@@ -30,3 +30,10 @@ Apache JMeter的特性包括：
     数据分析和可视化插件可实现出色的可扩展性和个性化。
     函数可用于为测试提供动态输入或提供数据处理。
     通过Maven，Gradle和Jenkins的第三方开源库，轻松进行持续集成。
+   
+我该怎么做？
+使用Jmeter，理解如何使用它。https://jmeter.apache.org/usermanual/index.html
+组件参考，其中包含每个测试元素的详细信息。https://jmeter.apache.org/usermanual/component_reference.html
+方法参考，其中包含每个方法取样器的详细信息。https://jmeter.apache.org/usermanual/functions.html
+属性参考，允许你自定义Jmeter的所有属性。https://jmeter.apache.org/usermanual/properties_reference.html
+Javadoc API文档。https://jmeter.apache.org/api/index.html
