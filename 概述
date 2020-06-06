@@ -1,0 +1,19 @@
+Apache JMeter是开源的应用，设计目的是加载测试功能行为和测试性能的一个100%的纯java应用。它从前是为测试Web应用而设计的，但是已经扩充了其他测试功能。
+
+我可以用Jmeter做什么呢？
+Apache JMeter既可以用于测试静态资源的性能，也可用于测试动态资源的性能，Web动态应用。
+它可以用于模仿一个服务器、服务集群、网络或者对象上的重加载，来测试它们的加载强度，或者来分析在不同加载类型下整体性能。
+
+Apache JMeter的特性包括：
+1、具有加载和性能测试许多不同的应用/服务/协议类型的能力：
+    Web - HTTP, HTTPS (Java, NodeJS, PHP, ASP.NET, …)
+    SOAP / REST Webservices
+    FTP
+    Database via JDBC
+    LDAP
+    Message-oriented middleware (MOM) via JMS
+    Mail - SMTP(S), POP3(S) and IMAP(S)
+    Native commands or shell scripts
+    TCP
+    Java Objects
+    
