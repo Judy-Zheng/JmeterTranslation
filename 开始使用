@@ -49,4 +49,5 @@ JMeter包含JMS API jar包，但是不包含JMS客户端实现。如果您想要
 JMeter要求您的计算机满足一些最低限度的要求。
 1.1.1 Java版本
 JMeter兼容Java8或者更高版本。出于安全和性能方面的考虑，我们强烈建议您安装主板本的最新版本。
-由于JMeter只能使用标准的Java API，如果由于您的Java运行环境实现问题导致Java运行环境执行Jmeter失败，请不要提交错误报告。
+由于JMeter只能使用标准的Java API，如果由于您的JRE实现问题导致JRE执行Jmeter失败，请不要提交错误报告。
+尽管您可以使用JRE，为了记录HTTPS还是安装个JDK更好，JMeter需要JDK的keytool实用程序。
